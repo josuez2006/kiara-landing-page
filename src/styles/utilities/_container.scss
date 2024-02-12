@@ -1,0 +1,7 @@
+.content-grid {
+    margin-inline: 32px;
+
+    @media (min-width: $breakpoint-md) {
+        margin-inline: 64px;
+    }
+}

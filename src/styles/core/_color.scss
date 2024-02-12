@@ -1,0 +1,24 @@
+$clr-neutral-100: #fff;
+$clr-neutral-200: #FFFBFA;
+$clr-neutral-500: #E2D9D7;
+$clr-neutral-900: #2E2C2B;
+
+$clr-primary-200: #FF9A82;
+$clr-primary-400: #FF7858;
+
+
+.bg-primary {
+    background-color: $clr-neutral-100;
+}
+
+.bg-secondary {
+    background-color: $clr-neutral-200;
+}
+
+body {
+    color: $clr-neutral-900;
+}
+
+.text-highlighted {
+    color: $clr-primary-200;
+}
