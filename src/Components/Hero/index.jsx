@@ -10,7 +10,7 @@ function Hero() {
 
         <div className='elements'>
             <img src="./assets/img/hero.jpg" alt="" className="img" />
-            <button className="btn-primary">Reservá una clase</button>
+            <a href="https://wa.me/5491168492899"><button className="btn-primary">Reservá una clase</button></a>
         </div>
     </section>
   )
