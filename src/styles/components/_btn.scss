@@ -1,6 +1,7 @@
 .btn-primary, .btn-secondary {
     padding: 16px 46px;
     border-radius: $border-radius;
+    transition: all .1s ease-in;
 }
 
 .btn-icon {
@@ -35,4 +36,9 @@
         padding-inline: 0;
     }
     
+}
+
+.btn-primary:hover {
+    background-color: $clr-primary-600;
+    scale: 1.05;
 }
