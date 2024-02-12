@@ -1,15 +1,17 @@
 $ff-base: 'Inter';
 
-$fs-heading: clamp(2rem, 5vw + 0.5rem, 4rem);
-$fs-title: 24px;
+$fs-heading: clamp(1.938rem, 5vw + 0.25rem, 4rem);
+$fs-heading: clamp(1.938rem, 5vw + 0.25rem, 3.5rem);
+$fs-title: clamp(1.5rem, 4vw + 0.25rem, 3rem);
 $fs-subtitle: 18px;
-$fs-body-text: clamp(1rem, 2vw + 0.25rem, 1.5rem);
+$fs-body-text: clamp(1.125rem, 2vw + 0.25rem, 1.5rem);
 
-$fs-logo: clamp(1rem, 2vw + 0.25rem, 1.5rem);
+$fs-logo: clamp(1.125rem, 2vw + 0.25rem, 1.5rem);
 $fs-btn: 24px;
 
 $fs-title-desktop: 48px;
-$fs-subtitle-desktop: 32px;
+$fs-subtitle-desktop: 24px;
+$fs-body-text-deskotp: 24px;
 
 $fw-semi-bold: 600;
 $fw-medium: 500;
@@ -22,19 +24,15 @@ body {
 .heading {
     font-size: $fs-heading;
     font-weight: $fw-semi-bold;
-
-    @media (min-width: $breakpoint-lg) {
-        letter-spacing: 77px;
-    }
 }
 
 .title {
     font-size: $fs-title;
     font-weight: $fw-semi-bold;
 
-    @media (min-width: $breakpoint-lg) {
-        font-size: $fs-title-desktop;
-    }
+    // @media (min-width: $breakpoint-lg) {
+    //     font-size: $fs-title-desktop;
+    // }
 }
 
 .subtitle {
@@ -60,6 +58,10 @@ body {
 }
 
 .paragraph {
-    font-style: $fs-body-text;
+    font-size: $fs-body-text;
     font-weight: $fw-regular;
+
+    // @media (min-width: $breakpoint-md) {
+    //     font-size: $fs-body-text-deskotp; 
+    // }
 }

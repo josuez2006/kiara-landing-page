@@ -1,0 +1,49 @@
+.feature {
+    .title {
+        // max-width: 18ch;
+    }
+
+    .paragraph {
+        // max-width: 36ch;
+    }
+
+    .img {
+        border-radius: 8px;
+    }
+
+
+    // Layout
+    
+    & {
+        display: grid;
+        gap: 32px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    @media (min-width: 524px) {
+        grid-template-columns: 1fr 1fr;
+        gap: clamp(24px, 1vw + 1rem, 48px);
+        align-items: center;
+
+        .img-left {
+            grid-row: 1 / 2;
+        }
+
+        .text-right {
+            grid-column: 2 / 3;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        gap: 64px;
+        
+        padding-left: 144px;
+        padding-right: 144px;
+    }
+}

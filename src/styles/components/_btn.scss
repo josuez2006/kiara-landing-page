@@ -17,7 +17,7 @@
     background-color: $clr-neutral-200;
 }
 
-@media (max-width: $breakpoint-md) {
+@media (max-width: calc($breakpoint-md - 1px)) {
     .btn-text {
         display: none;
     }
@@ -27,4 +27,12 @@
     .btn-icon {
         display: none;
     }
+}
+
+@media (max-width: $breakpoint-lg) {
+    .btn-primary {
+        width: 100%;
+        padding-inline: 0;
+    }
+    
 }

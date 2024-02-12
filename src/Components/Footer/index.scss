@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    @media (min-width: 720px) {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+
+        .icon {
+            width: 32px;
+            aspect-ratio: 1;
+        }
+
+        
+    }
+}

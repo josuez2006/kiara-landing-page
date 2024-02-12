@@ -1,7 +1,18 @@
-.content-grid {
-    margin-inline: 32px;
+section, nav, footer {
+    padding-inline: 32px;
 
     @media (min-width: $breakpoint-md) {
-        margin-inline: 64px;
+        padding-inline: 64px;
     }
 }
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    @media (min-width: $breakpoint-md) {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+

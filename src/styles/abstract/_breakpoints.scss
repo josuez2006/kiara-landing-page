@@ -1,2 +1,7 @@
-$breakpoint-lg: 1080px;
+$breakpoint-lg: 924px;
 $breakpoint-md: 720px;
+
+* {
+    --breakpoint-lg: 924px;
+    --breakpoint-md: 720px;
+}

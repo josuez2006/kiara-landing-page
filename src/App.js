@@ -1,12 +1,23 @@
+import ClassStructure from './Components/ClassStructure';
+import Conversion from './Components/Conversion';
+import FirstFeature from './Components/FirstFeature';
+import Footer from './Components/Footer';
+import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
+import SecondFeature from './Components/SecondFeature';
 import './styles/main.scss';
 
 function App() {
   return (
-    <div className='content-grid'>
+    <>
       <Navbar />
-    
-    </div>
+      <Hero />
+      <FirstFeature />
+      <SecondFeature />
+      <ClassStructure />
+      <Conversion />
+      <Footer />
+    </>
   );
 }
 
