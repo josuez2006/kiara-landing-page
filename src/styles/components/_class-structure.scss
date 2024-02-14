@@ -28,11 +28,29 @@
         place-content: center;
         background: $clr-neutral-500;
         color: $clr-neutral-100;
+        transition: background 0.1s ease-in;
+        z-index: 1;
 
     }
 
-    .number[aria-active=true] {
+    .number[aria-selected=true] {
         background: $clr-primary-400;
+        animation: numberAnimation 1s ease-in;
+    }
+
+    @keyframes numberAnimation {
+
+
+        25% {
+            rotate: 5deg;
+            scale: 1.2;
+        }
+      
+
+        75% {
+            rotate: -5deg;
+            scale: 0.98;
+        }
     }
     
     

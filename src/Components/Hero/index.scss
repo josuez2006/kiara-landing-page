@@ -3,7 +3,7 @@
     margin: 0 auto;
     min-height: calc(100vh - 64px - 48px);
     padding-bottom: 32px;
-    margin-bottom: 98px;
+    margin-bottom: 48px;
 
     // Text lenght
 
@@ -56,6 +56,10 @@
     }
 
     @media (min-width: 925px) {
+        
+        padding-bottom: 32px;
+        margin-bottom: 98px;
+
         .elements {
             display: flex;
             flex-direction: column-reverse;

@@ -1,7 +1,7 @@
 $ff-base: 'Inter';
 
-$fs-heading: clamp(1.938rem, 5vw + 0.25rem, 4rem);
-$fs-heading: clamp(1.938rem, 5vw + 0.25rem, 3.5rem);
+// $fs-heading: clamp(1.938rem, 5vw + 0.25rem, 4rem);
+$fs-heading: clamp(1.75rem, 5vw, 4rem);
 $fs-title: clamp(1.5rem, 4vw + 0.25rem, 3rem);
 $fs-subtitle: 18px;
 $fs-body-text: clamp(1.125rem, 2vw + 0.25rem, 1.5rem);
