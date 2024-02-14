@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kiara-landing-page/static/css/main.d84e62c4.css",
-    "main.js": "/kiara-landing-page/static/js/main.83ef2b66.js",
+    "main.css": "/kiara-landing-page/static/css/main.1c4f3629.css",
+    "main.js": "/kiara-landing-page/static/js/main.dda7f538.js",
     "index.html": "/kiara-landing-page/index.html",
-    "main.d84e62c4.css.map": "/kiara-landing-page/static/css/main.d84e62c4.css.map",
-    "main.83ef2b66.js.map": "/kiara-landing-page/static/js/main.83ef2b66.js.map"
+    "main.1c4f3629.css.map": "/kiara-landing-page/static/css/main.1c4f3629.css.map",
+    "main.dda7f538.js.map": "/kiara-landing-page/static/js/main.dda7f538.js.map"
   },
   "entrypoints": [
-    "static/css/main.d84e62c4.css",
-    "static/js/main.83ef2b66.js"
+    "static/css/main.1c4f3629.css",
+    "static/js/main.dda7f538.js"
   ]
 }
